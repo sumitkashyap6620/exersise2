@@ -5,24 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
    <style> 
-    .c{
-        background-color: rgb(119, 27, 27);
-        color: aquamarine;
-        width: 300px;
+   *{
+    margin: 0;
+    padding: 0;
+   }
+   .c{
+    background-color: rgb(255, 0, 204);
+   }
+    @media only screen and (max-width: 505px){
+        .c{display: flex;
+        background-color: cornflowerblue;}
+        
     }
-    @media only screen and (max-width: 105px){
-         .c{
-            background-color: aquamarine;
-            color: brown;
-         }
+    .c1{
+        background-color: rgb(22, 248, 13);
+        margin: 50px;
+        padding: 90px;
+        
     }
     
     </style>
 </head>
 <body>
-    <div class="c">
-        sdgdfg df gsd sdfgd sddfg dsdf f f 
-    </div>
-    
+   <div  class ="c">
+   <span class="c1 c2">i am box 1</span>
+   <span class="c1 c3"> i am box 2</span>
+    </div> 
 </body>
 </html>
